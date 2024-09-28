@@ -9,6 +9,7 @@ n, k = map(int, input().split())
 tmp = [i for i in range(1, n+1)]
 queue = deque(tmp)
 # print(queue)
+# queue = deque(range(1, n+1)) 로 1줄로 대체할 수 있음 
 
 # 1번 사람 기준으로 k 번째 사람 삭제
 # k 번째 사람 다음 사람 기준으로 다시 k 번째 사람 삭제 
