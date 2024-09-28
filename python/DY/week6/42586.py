@@ -30,8 +30,6 @@ def solutions(progresses, speeds):
             result.append(cnt)
             cnt = 0
 
-        if total == 5:
-            break
 
 solutions(progresses, speeds)
 print(result)
